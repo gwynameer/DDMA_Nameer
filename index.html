@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 >
+                <center><img src ="http://648835.weebly.com/uploads/2/6/0/7/26078862/1395965747.png"/></center>
+            </h1>
+        </div>
+        <div id="menu">
+            
+            <nav class="menuCSS">
+                <ul>
+                    <!--Pestañas de navegación-->
+                    
+					<a href="index.html">Home</a>
+                    <a href="practica_ghibli/HTML/pelis.html">Filmografía</a>
+                    <a href="practica_ghibli/HTML/museo.html">Museo</a>
+                    <a href="practica_ghibli/HTML/miy.html">Hayao Miyazaki</a>
+                    <a href="practica_ghibli/HTML/music.html">Música</a>
+                   
+            </nav>
+       
+            <div class="cuerpo">
+                <!--localizacion github-->
+                <img src="IMG\info.png"/><br><br>
+                
+            </div>
+            <div class='disclaimer'>
+                <center>
+                <input type='button' onclick="alert('CUALQUIER MATERIAL MULTIMEDIA DE ESTA PÁGINA PERTENECE A SUS RESPECTIVOS AUTORES');" value='Derechos de autor'/>
+                </center>
+            </div>
+                
+        </div>
+    </body>
+</html>

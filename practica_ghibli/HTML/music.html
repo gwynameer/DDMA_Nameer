@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="music.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+                <!--ruta de github-->>
+             <h1 ><center><img src="..\..\IMG\musica.png" width="300" height="270"/></center> </h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Pestañas de navegación-->
+					<a href="../../index.html">Home</a>
+                    <a href="pelis.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+                    <a href="music.html">Música</a>         
+            </nav>
+       
+            <div class="cuerpo">
+			<br>
+     
+				
+				<br><br>
+                <img id="ghibli" style="float:left; margin:10px"; src="https://fireflydiary.files.wordpress.com/2010/03/asian2bfilm2bawards2b20092b0qtislbgbjll.jpg"/>  
+                <H3><b>Mamoru Fujisawa, conocido profesionalmente como Joe Hisaishi (Nagano, Japón, 6 de diciembre de 1950), es un prolífico compositor japonés y director de orquesta, responsable de más de 100 bandas sonoras.</b><br><br>
+				<b> En su obra se mezclan el clasicismo europeo y la tradición japonesa, el minimalismo y la música electrónica experimental, de manera armoniosa</b><br><br>
+				<b>Nació el 6 de diciembre de 1950 en Nagano (Japón). Comenzó sus clases de violín a los 4 años, descubriendo su pasión por la música. Es responsable de más de 100 bandas sonoras y álbumes convencionales desde 1981.</b><br><br>
+				<b>A lo largo de su carrera, se ha vuelto especialmente conocido por su trabajo con el director de películas de animación Hayao Miyazaki, incluyendo entre sus obras las bandas sonoras de La princesa Mononoke (1997), El viaje de Chihiro(2002), y El castillo ambulante (2004) entre otras. También se le conoce por su trabajo junto a Takeshi Kitano (El verano de Kikujiro) y realiza otras composiciones, arreglos musicales y ejerce de director de orquesta.</b><br><br>
+				<b>En 2008, Hisaishi compuso la banda sonora de Okuribito (en inglés Departures), película japonesa dirigida por Yōjirō Takita y ganadora de un Premio Óscar en 2009 como mejor película de habla no inglesa.Su nombre artístico "Joe Hisaishi" hace referencia a su ídolo, el músico y compositor americano Quincy Jones.</b><br><br><br><br><br><br><br></p></H3>
+                <center>
+                    <H1><b><br><br><br><br><br>***Algunos de sus principales trabajos***</H1>
+                <H3><b><br><br>El viaje de Chihiro:</b><br></H3>  
+                <audio src="..\..\SOUND\spirited-away.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>  
+                <H3><b><br>La princesa mononoke:</b><br></H3>  
+                <audio src="..\..\SOUND\mononoke.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
+                <H3><b><br>Mi vecino Totoro:</b><br></H3>  
+                <audio src="..\..\SOUND\totoro.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
+                <H3><b><br>Nausicaa:</b><br></H3>  
+                <audio src="..\..\SOUND\nausicaa.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio>
+                </center>
+
+            </div>
+
+            <div class="audio">
+            <audio>
+                <source src="..\..\SOUND\spirited-away.mp3">
+                </audio>
+            </div>
+                
+        </div>
+    </body>
+</html>

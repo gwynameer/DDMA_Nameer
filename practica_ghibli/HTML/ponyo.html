@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><center><img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Gake_no_ue_no_Ponyo_title.jpg"width="300" height="200"/></center></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Pestañas de navegación-->
+					<a href="../../index.html">Home</a>
+                    <a href="pelis.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+                    <a href="music.html">Música</a>      
+
+                    
+            </nav>
+       
+            <div class="cuerpo">
+			<br>
+                <H2><b>Se centra en una criatura marina similar a un pez dorado llamada Ponyo, quien conoce y traba amistad con un niño de cinco años, Sōsuke, y desea convertirse en niña.</b><br></H2>
+                <br><br>
+                <center>
+                <img id="ghibli" src="http://expresionotaku.com/wp-content/uploads/2015/10/Ponyo-y-Sosuke.png" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/HDvl64YWEmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>
+            </div>
+            
+                
+        </div>
+    </body>
+</html>

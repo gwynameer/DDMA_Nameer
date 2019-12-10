@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Studio Ghibli</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="viaje.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById('cambiar').onmouseover=cambiacolor;
+                document.getElementById('cambiar').onmouseout=quitacolor;
+            }
+            function cambiacolor(){
+                document.getElementById('cambiar').style.color="gold";
+            }
+            function quitacolor(){
+                document.getElementById('cambiar').style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+       <div class="texto" >
+             <h1 ><center><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/H%C5%8Dhokekyo_Tonari_no_Yamada-kun_title.jpg"width="300" height="200"/></center></h1>
+        </div>
+        <div id="menu">
+            <nav class="menuCSS">
+                <ul>
+                    <!--Pestañas de navegación-->
+					<a href="../../index.html">Home</a>
+                    <a href="pelis.html">Filmografía</a>
+                    <a href="museo.html">Museo</a>
+					<a href="miy.html">Hayao Miyazaki</a>
+                    <a href="music.html">Música</a>      
+                    
+            </nav>
+       
+            <div class="cuerpo">
+			<br>
+                <H2><b>Es una comedia familiar presentada como si fueran tiras de manga, algo innovador en la industria del anime. Basado en una tira cómica de Hisaichi Ishii, es la primera película del estudio en realizarse íntegramente por ordenador. Es la cuarta producción de Isao Takahata tras La tumba de las luciérnagas, Recuerdos del ayer y Pompoko.</b><br></H2>
+                <br><br>
+                <center>
+                <img id="ghibli" src="http://www.hablandoenmanga.com/imagenes/yamada_01.jpg" />
+				<iframe id="ghibli2" src="https://www.youtube.com/embed/oO3UDzTBpa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>
+            </div>
+            
+                
+        </div>
+    </body>
+</html>
